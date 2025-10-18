@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light-theme">
+
+    <h1>Лабораторна робота №3</h1>
+
+    <!-- Зміна теми сторінки -->
+    <section>
+        <h2>Зміна теми сторінки</h2>
+        <button id="theme-toggle">Змінити тему</button>
+    </section>
+
+    <hr>
+
+    <!-- Реактивне вітання користувача -->
+    <section>
+        <h2>Реактивне вітання користувача</h2>
+        <input id="user-name" type="text" placeholder="Введіть ім’я">
+        <p id="greeting"></p>
+    </section>
+
+    <hr>
+
+    <!-- Динамічне додавання елементів -->
+    <section>
+        <h2>Додавання коментарів</h2>
+        <form id="comment-form">
+            <input id="comment-name" type="text" placeholder="Ваше ім’я" required>
+            <input id="comment-text" type="text" placeholder="Ваш коментар" required>
+            <button type="submit">Додати</button>
+        </form>
+        <div id="comment-list"></div>
+    </section>
+
+    <hr>
+
+    <!-- Динамічне завантаження контенту -->
+    <section>
+        <h2>Динамічне завантаження контенту (HTML)</h2>
+        <button id="load-content">Завантажити дані</button>
+        <div id="content-container"></div>
+    </section>
+
+    <hr>
+
+    <!-- Динамічне завантаження структурованих даних -->
+    <section>
+        <h2>Динамічне завантаження структурованих даних (JSON)</h2>
+        <button id="load-json">Завантажити JSON</button>
+        <div id="json-container"></div>
+    </section>
+
+    <hr>
+
+    <!-- Опис -->
+    <section>
+        <h2>Опис дій та труднощів</h2>
+        <p><strong>Опис дій:</strong> Реалізовано асинхронне завантаження структурованих даних через Fetch API з випадковим вибором одного з трьох JSON-файлів: comments.json, news.json або schedule.json.</p>
+        <p><strong>Труднощі:</strong> Виникали проблеми з обробкою різних структур JSON-файлів і відображенням їх у зрозумілому форматі.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
