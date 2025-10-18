@@ -1,0 +1,54 @@
+/* Теми */
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-theme {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Кнопки та поля */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+}
+
+/* Секції */
+section {
+    margin-bottom: 30px;
+}
+
+/* Коментарі */
+#comment-list {
+    margin-top: 15px;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Контейнер для завантаженого контенту */
+#content-container, #json-container {
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 50px;
+}
